@@ -1,58 +1,60 @@
 # Hybrid Home Lab Infrastructure
 
 ## Overview
-This repository documents my practical Cloud & Infrastructure Automation learning path using a home server.
 
-The goal is to build real, documented infrastructure skills for internship roles in Belgium, especially around Linux, networking, Docker, monitoring, backups, automation, Azure, and Microsoft 365.
+This repository documents my practical learning journey in Cloud and Platform Infrastructure Automation.
 
-## Current Phase
-Phase 1: Secure Ubuntu Server Baseline
+I am building a home lab using an old gaming PC to develop practical skills in Linux administration, networking, storage, security, Docker, monitoring, backups, automation, Azure, and infrastructure documentation.
 
-## Target Roles
-- Infrastructure Intern
-- Cloud Support Intern
-- Junior System Engineer Intern
-- IT Operations Intern
-- Modern Workplace Intern
+## Current Environment
 
-## Technologies
-- Ubuntu Server
-- Linux administration
-- SSH
-- UFW Firewall
-- Users and permissions
-- Networking basics
-- Docker
-- Docker Compose
-- Bash scripting
-- Python automation
-- Monitoring
-- Backup and recovery
-- Azure fundamentals
-- Microsoft 365 / Entra ID basics
+- Device type: Old gaming PC
+- RAM: 8 GB
+- Operating system: Ubuntu Server
+- System disk: 128 GB SSD
+- Additional storage: 1 TB HDD
+- Management method: SSH from my laptop
+- Hostname: `homelab-server-01`
+
+## Current Progress
+
+- [x] Install Ubuntu Server
+- [x] Configure hostname
+- [x] Install OpenSSH Server
+- [x] Connect from laptop using SSH
+- [ ] Update the operating system
+- [ ] Configure UFW firewall
+- [ ] Harden SSH
+- [ ] Prepare the 1 TB HDD
+- [ ] Install Docker
+- [ ] Add monitoring
+- [ ] Configure backups
+- [ ] Create automation scripts
 
 ## Project Goals
-- Configure a secure Ubuntu Server baseline
-- Document server setup and configuration
-- Deploy Docker-based services
-- Add monitoring and backup workflows
-- Create automation scripts
-- Build an Azure mini lab
-- Prepare a professional infrastructure/cloud portfolio
 
-## Phase 1: Secure Ubuntu Server Baseline
-Planned tasks:
-- Install Ubuntu Server
-- Configure hostname and static/local network access
-- Create a non-root admin user
-- Configure SSH access
-- Harden SSH settings
-- Enable UFW firewall
-- Review system logs
-- Document issues and fixes
+- Build a secure Linux server foundation
+- Learn infrastructure troubleshooting
+- Deploy and manage containerized services
+- Configure monitoring and backups
+- Automate repetitive administration tasks
+- Build documented evidence for infrastructure and cloud internships
 
-## Troubleshooting Notes
-I will document technical issues, errors, and fixes here as the lab grows.
+## Documentation
+
+- [Day 001 — Ubuntu Server Installation](docs/day-001-ubuntu-server-installation.md)
+
+## Security
+
+This repository does not contain:
+
+- Passwords
+- Private SSH keys
+- Public IP addresses
+- Access tokens
+- Secrets
+- Sensitive personal information
 
 ## Status
-In progress.
+
+Project in progress.
