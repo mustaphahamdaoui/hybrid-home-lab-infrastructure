@@ -1,4 +1,4 @@
-# Day 001 — Ubuntu Server Installation
+# week 001 — Ubuntu Server Installation
 
 ## 1. Goal
 
