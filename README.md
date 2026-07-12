@@ -42,7 +42,7 @@ I am building a home lab using an old gaming PC to develop practical skills in L
 
 ## Documentation
 
-- [Day 001 — Ubuntu Server Installation](docs/day-001-ubuntu-server-installation.md)
+- [Day 001 — Ubuntu Server Installation](docs/week-001-ubuntu-server-installation.md)
 
 ## Security
 
